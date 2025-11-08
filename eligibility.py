@@ -6,7 +6,8 @@ attendence_percentage = (attended_days / total_days) * 100
 print("Your attended days:", attended_days)
 print("Your attendance percentage:", attendence_percentage, "%")
 
-if attended_days <=75:
+if attendence_percentage <=75:
     print("You are not eligible for the exam")
 else:
     print("You are eligible for the exam")
+    
