@@ -23,3 +23,12 @@ print(set1.difference(set2))
 print()
 print("Symmetric Differnece")
 print(set1.symmetric_difference(set2))
+
+print("\Intersection of two said sets:")
+setz = set1.intersection(set2)
+print(setz)
+print()
+
+setc = set1.union(set2)
+print("\nunion of above sets")
+print(setc)
